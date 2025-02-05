@@ -11,3 +11,9 @@ Customers who purchase annual memberships are Cyclistic members.
 
 **The goal is:**
 Design marketing strategies aimed at converting casual riders into annual members.
+
+***Ask***
+Three questions will guide the future marketing program:
+1. 2. 3. How do annual members and casual riders use Cyclistic bikes differently?
+Why would casual riders buy Cyclistic annual memberships?
+How can Cyclistic use digital media to influence casual riders to become members?
