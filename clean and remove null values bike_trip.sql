@@ -1,28 +1,26 @@
 CREATE OR REPLACE TABLE `Bike_project.bike_trips_cleaned` AS
-SELECT * 
+SELECT 
+    ride_id,
+    rideable_type,
+    started_at,
+    ended_at,
+    COALESCE(start_station_name, 'Unknown') AS start_station_name,
+    COALESCE(end_station_name, 'Unknown') AS end_station_name,
+    COALESCE(start_station_id, '0') AS start_station_id,
+    COALESCE(end_station_id, '0') AS end_station_id,
+    start_lat,
+    start_lng,
+    end_lat,
+    end_lng,
+    member_casual
 FROM `Bike_project.bike_trips`
 WHERE ride_id IS NOT NULL 
 AND started_at IS NOT NULL 
 AND ended_at IS NOT NULL 
 AND member_casual IS NOT NULL;
 
-CREATE OR REPLACE TABLE `Bike_project.bike_trips_cleaned` AS
-SELECT * 
-FROM `Bike_project.bike_trips`
-WHERE ride_id IS NOT NULL 
-AND started_at IS NOT NULL 
-AND ended_at IS NOT NULL 
-AND member_casual IS NOT NULL
-AND start_station_name IS NOT NULL
-AND end_station_name IS NOT NULL;
-
 SELECT 
     COUNT(*) AS total_rows,
-    COUNT(ride_id) AS ride_id_count,
-    COUNT(started_at) AS started_at_count,
-    COUNT(ended_at) AS ended_at_count,
-    COUNT(start_station_name) AS start_station_count,
-    COUNT(end_station_name) AS end_station_count,
-    COUNT(member_casual) AS member_casual_count
-FROM `Bike_project.bike_trips_cleaned`;
-
+    COUNT(DISTINCT ride_id) AS unique_rides,
+    COUNT(start_station_name) - COUNT(*) AS missing_stations
+FROM `Bike_project.bike_trips_processed`;
