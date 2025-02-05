@@ -16,3 +16,12 @@ Design marketing strategies aimed at converting casual riders into annual member
 The questions that I will answer:
 1. How do annual members and casual riders use Cyclistic bikes differently?
 
+**Deliverables**
+I will produce a report with the following deliverables:
+1. A clear statement of the business task
+2. A description of all data sources used
+3. Documentation of any cleaning or manipulation of data
+4. A summary of my analysis
+5. Supporting visualizations and key findings
+6. Top three recommendations based on the analysis
+
