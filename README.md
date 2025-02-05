@@ -1,3 +1,6 @@
+![1688023025603](https://github.com/user-attachments/assets/012f6b6b-6623-434a-95a5-dc29741a394e) 
+Photo by Freepik and Aditya Jain
+
 **Brief history of the company:**
 Cyclistic started its bike-share program in 2016, and it has grown significantly since then. There are 5,824 GPS-tracked bikes available across 692 stations in Chicago. Riders can pick up a bike from one station and drop it off at another.
 
