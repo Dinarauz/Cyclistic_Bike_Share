@@ -9,5 +9,5 @@ Cyclistic started its bike-share program in 2016, and it has grown significantly
 Customers who purchase single-ride or full-day passes are referred to as casual riders.
 Customers who purchase annual memberships are Cyclistic members.
 
-**Goal is:**
+**The goal is:**
 Design marketing strategies aimed at converting casual riders into annual members.
