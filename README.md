@@ -14,16 +14,9 @@ Customers who purchase annual memberships are Cyclistic members.
 **The goal is:**
 Design marketing strategies aimed at converting casual riders into annual members.
 
-***Ask***
-The questions that I will answer:
-1. How do annual members and casual riders use Cyclistic bikes differently?
+**Scenario:**
+As a junior data analyst working on the marketing team at a Cyclistic bike share company located in Chicago, I have been given a task to find an answer to the "How do annual members and casual riders use Cyclistic bikes differently?" The goal is to convert casual riders into annual members rather than getting a new member. Hence, our team would like to understand casual and members closely. Then we can think of how to create a new marketing strategy to turn casual riders into members. 
 
-**Deliverables**
-I will produce a report with the following deliverables:
-1. A clear statement of the business task
-2. A description of all data sources used
-3. Documentation of any cleaning or manipulation of data
-4. A summary of my analysis
-5. Supporting visualizations and key findings
-6. Top three recommendations based on the analysis
+**Discoveries:**
+
 
