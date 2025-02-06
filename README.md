@@ -18,5 +18,12 @@ Design marketing strategies aimed at converting casual riders into annual member
 As a junior data analyst working on the marketing team at a Cyclistic bike share company located in Chicago, I have been given a task to find an answer to the "How do annual members and casual riders use Cyclistic bikes differently?" The goal is to convert casual riders into annual members rather than getting a new member. Hence, our team would like to understand casual and members closely. Then we can think of how to create a new marketing strategy to turn casual riders into members. **My database starts from 12/2023 to 12/2024**
 
 **Discoveries:**
+I have discovered that during 
+
+**Issues encountered:**
+There we a couple of issues encountered during the analysis, first my database had many null values, and second issue was started_at column had many Unknown values. 
+
+**Recommendations:**
+
 
 
