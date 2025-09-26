@@ -30,7 +30,7 @@ Rather than acquiring new customers, Cyclistic wants to convert existing casual 
 - Analyzed usage patterns by customer type, time periods, and bike preferences
 
 **Technical Implementation:**
-**SQL Analysis:** bike_ride_SQL.sql | bike_ride_sample.sql
+**SQL Analysis:** [bike_ride_SQL.sql](https://github.com/Dinarauz/Cyclistic_Bike_Share/blob/main/bike_ride_SQL.sql) | 
 - Data cleaning and aggregation using SQL queries
 - Customer segmentation analysis (members vs casual riders)
 - Time series analysis of seasonal usage patterns
