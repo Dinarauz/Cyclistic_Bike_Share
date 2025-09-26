@@ -37,6 +37,9 @@ Rather than acquiring new customers, Cyclistic wants to convert existing casual 
 - Geographic analysis of popular station locations
 - Statistical comparisons of ride duration and frequency
 
+**Tableau Public**
+[https://public.tableau.com/app/profile/dinara.ibotova/viz/CyclisticBikeUsageAnalysisMembersvs_CasualRiders/Dashboard2?publish=yes](https://public.tableau.com/app/profile/dinara.ibotova/viz/CyclisticBikeShareProjectDashboard/Dashboard2?publish=yes)
+
 **Key Findings:**
 **Usage Frequency**
 Members use the bike system way more than casual riders they've made it part of their daily routine with more frequent, shorter trips.
@@ -55,7 +58,7 @@ Members use the bike system way more than casual riders they've made it part of 
 
 ## Business Recommendations: 
 **Targeted Marketing Strategies**
-Summer Promotions: Launch membership conversion campaigns during June-August when casual usage peaks. Offer limited-time discounts to capitalize on high engagement.
+**Summer Promotions:** Launch membership conversion campaigns during June-August when casual usage peaks. Offer limited-time discounts to capitalize on high engagement.
 
 **Weekend Membership Options:** Create weekend-only or flexible membership tiers for casual riders who primarily use bikes recreationally.
 
@@ -76,45 +79,31 @@ Focus on demonstrating the value of consistent, year-round usage to casual rider
 These issues were resolved through data validation and cleaning processes before analysis.
 
 ## Impact & Next Steps
-Current Limitations
+**Current Limitations:**
+- Data Quality: Null values and "Unknown" entries required significant cleaning
+- Time Period: Limited to 12-month analysis (Dec 2023 - Dec 2024)
+- Demographic Gap: No customer demographic data beyond membership type
+- Geographic Detail: Station-level analysis limited by data availability
 
-Data Quality: Null values and "Unknown" entries required significant cleaning
-Time Period: Limited to 12-month analysis (Dec 2023 - Dec 2024)
-Demographic Gap: No customer demographic data beyond membership type
-Geographic Detail: Station-level analysis limited by data availability
+**Future Analysis:**
+**Short-term (3-6 months):**
+- A/B testing framework for marketing campaign effectiveness
+- Revenue impact analysis of conversion strategies
+- Seasonal promotion optimization
 
-Future Analysis
-Short-term (3-6 months):
+**Long-term (6+ months):**
+- Multi-year trend analysis to validate patterns
+- Integration of demographic data for more targeted marketing
+- Predictive modeling for conversion probability scoring
+- Cross-city comparison with other bike-share programs
 
-A/B testing framework for marketing campaign effectiveness
-Revenue impact analysis of conversion strategies
-Seasonal promotion optimization
+**Skills Demonstrated:**
+- SQL: Complex queries for data cleaning and customer segmentation
+- Data Analysis: Time series analysis, customer behavior patterns
+- Business Intelligence: Translating data insights into marketing strategies
+- Visualization: Interactive dashboard development in Tableau
+- Problem Solving: Data quality issues resolution and strategic recommendations
 
-Long-term (6+ months):
-
-Multi-year trend analysis to validate patterns
-Integration of demographic data for more targeted marketing
-Predictive modeling for conversion probability scoring
-Cross-city comparison with other bike-share programs
-
-Skills Demonstrated
-
-SQL: Complex queries for data cleaning and customer segmentation
-Data Analysis: Time series analysis, customer behavior patterns
-Business Intelligence: Translating data insights into marketing strategies
-Visualization: Interactive dashboard development in Tableau
-Problem Solving: Data quality issues resolution and strategic recommendations
-
-
-Tools: Tableau, Data Analysis, Customer Segmentation
-Industry: Transportation & Urban Mobility
-
-**Tableau Public**
-[https://public.tableau.com/app/profile/dinara.ibotova/viz/CyclisticBikeUsageAnalysisMembersvs_CasualRiders/Dashboard2?publish=yes](https://public.tableau.com/app/profile/dinara.ibotova/viz/CyclisticBikeShareProjectDashboard/Dashboard2?publish=yes)
-
-
-
-**Recommendations:**
-The first recommendation is to create promotions for casual members during the summer months since our data showed a peak during the summer months. Also, to create weekend-exclusive memberships to casual members such as discounts to attract them. Finally, create more marketing around popular areas so we can attract more individuals as well as remove locations where bikes are not being used and add to the locations with many offices. 
-
+**Tools:** Tableau, Data Analysis, Customer Segmentation
+**Industry:** Transportation & Urban Mobility
 
