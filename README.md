@@ -1,17 +1,23 @@
-**Cyclistic Bike Share Analysis
+# Cyclistic Bike Share Analysis
 
 ![logo](https://github.com/user-attachments/assets/99589196-e604-4918-a9c1-a2d2d62921be)
 
+## Member vs Casual Rider Usage Patterns in Chicago (2023-2024)
+Analyzed bike-share usage data to understand how annual members and casual riders use Cyclistic bikes differently. Built insights to help convert casual riders into annual memberships through targeted marketing strategies.
+
 **Brief history of the company:**
-Cyclistic started its bike-share program in 2016, and it has grown significantly since then. There are 5,824 GPS-tracked bikes available across 692 stations in Chicago. Riders can pick up a bike from one station and drop it off at another.
+Cyclistic launched its bike-share program in 2016 and has grown to 5,824 GPS-tracked bikes across 692 stations in Chicago. The system offers flexible pickup/drop-off at any station throughout the city.
 
-**There are different types of customers:**
-* single-ride passes
-* full-day passes
-* annual memberships.
+**Customer Segments:**
+- **Casual Riders:** single-ride and full-day pass users.
+- **Annual members:** Subscription-based users with yearly memberships.
 
-Customers who purchase single-ride or full-day passes are referred to as casual riders.
-Customers who purchase annual memberships are Cyclistic members.
+*Customers who purchase single-ride or full-day passes are referred to as casual riders.
+Customers who purchase annual memberships are Cyclistic members.*
+
+**Marketing Challenge:**
+Rather 
+
 
 **Tableau Public**
 [https://public.tableau.com/app/profile/dinara.ibotova/viz/CyclisticBikeUsageAnalysisMembersvs_CasualRiders/Dashboard2?publish=yes](https://public.tableau.com/app/profile/dinara.ibotova/viz/CyclisticBikeShareProjectDashboard/Dashboard2?publish=yes)
