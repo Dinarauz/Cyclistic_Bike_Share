@@ -3,7 +3,9 @@
 ![logo](https://github.com/user-attachments/assets/99589196-e604-4918-a9c1-a2d2d62921be)
 
 ## Member vs Casual Rider Usage Patterns in Chicago (2023-2024)
-Analyzed bike-share usage data to understand how annual members and casual riders use Cyclistic bikes differently. Built insights to help convert casual riders into annual memberships through targeted marketing strategies.
+Analyzed bike share usage data to understand how annual members and casual riders use Cyclistic bikes differently. Built insights to help convert casual riders into annual memberships through targeted marketing strategies.
+
+# Business Problem:
 
 **Brief history of the company:**
 Cyclistic launched its bike-share program in 2016 and has grown to 5,824 GPS-tracked bikes across 692 stations in Chicago. The system offers flexible pickup/drop-off at any station throughout the city.
@@ -16,8 +18,9 @@ Cyclistic launched its bike-share program in 2016 and has grown to 5,824 GPS-tra
 Customers who purchase annual memberships are Cyclistic members.*
 
 **Marketing Challenge:**
-Rather 
+Rather than acquiring new customers, Cyclistic wants to convert existing casual riders into profitable annual members. The marketing team needed to understand usage differences between these groups to design targeted conversion strategies.
 
+**Analysis Approach:**
 
 **Tableau Public**
 [https://public.tableau.com/app/profile/dinara.ibotova/viz/CyclisticBikeUsageAnalysisMembersvs_CasualRiders/Dashboard2?publish=yes](https://public.tableau.com/app/profile/dinara.ibotova/viz/CyclisticBikeShareProjectDashboard/Dashboard2?publish=yes)
