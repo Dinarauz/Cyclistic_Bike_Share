@@ -21,6 +21,22 @@ Customers who purchase annual memberships are Cyclistic members.*
 Rather than acquiring new customers, Cyclistic wants to convert existing casual riders into profitable annual members. The marketing team needed to understand usage differences between these groups to design targeted conversion strategies.
 
 **Analysis Approach:**
+**Data Period:** December 2023 - December 2024
+**Focus Question:** How do annual members and casual riders use Cyclistic bikes differently?
+
+**Data Processing:**
+- Cleaned dataset by removing null values from ride records
+- Handled "Unknown" values in the started_at column
+- Analyzed usage patterns by customer type, time periods, and bike preferences
+
+**Technical Implementation:**
+**SQL Analysis:** bike_ride_SQL.sql | bike_ride_sample.sql
+- Data cleaning and aggregation using SQL queries
+- Customer segmentation analysis (members vs casual riders)
+- Time series analysis of seasonal usage patterns
+- Geographic analysis of popular station locations
+- Statistical comparisons of ride duration and frequency
+
 
 **Tableau Public**
 [https://public.tableau.com/app/profile/dinara.ibotova/viz/CyclisticBikeUsageAnalysisMembersvs_CasualRiders/Dashboard2?publish=yes](https://public.tableau.com/app/profile/dinara.ibotova/viz/CyclisticBikeShareProjectDashboard/Dashboard2?publish=yes)
