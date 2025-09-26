@@ -37,6 +37,77 @@ Rather than acquiring new customers, Cyclistic wants to convert existing casual 
 - Geographic analysis of popular station locations
 - Statistical comparisons of ride duration and frequency
 
+**Key Findings:**
+**Usage Frequency**
+Members use the bike system way more than casual riders they've made it part of their daily routine with more frequent, shorter trips.
+
+**Timing Patterns:**
+- Members: Prefer weekday usage (likely commuting to work)
+- Casual Riders: Peak usage on weekends (recreational riding)
+
+**Seasonal Behavior:**
+- Casual Riders: Big spike in summer months (June-August)
+- Members: Consistent usage year-round regardless of season
+
+**Bike Preferences:**
+- Members: Favor electric bikes for quick, efficient trips
+- Casual Riders: Take longer rides, often using traditional bikes
+
+## Business Recommendations: 
+**Targeted Marketing Strategies**
+Summer Promotions: Launch membership conversion campaigns during June-August when casual usage peaks. Offer limited-time discounts to capitalize on high engagement.
+
+**Weekend Membership Options:** Create weekend-only or flexible membership tiers for casual riders who primarily use bikes recreationally.
+
+**Geographic Optimization:**
+- Increase marketing presence at high-traffic casual rider locations
+- Remove bikes from underutilized stations and redistribute to office-heavy areas where potential commuter members work
+
+**Conversion Strategy:**
+Focus on demonstrating the value of consistent, year-round usage to casual riders who currently only bike seasonally or on weekends.
+
+## Data Challenges
+
+**Data Quality Issues:**
+- Multiple null values required extensive cleaning
+- "Unknown" entries in timestamp data needed special handling
+- Missing geographic data for some station locations
+
+These issues were resolved through data validation and cleaning processes before analysis.
+
+## Impact & Next Steps
+Current Limitations
+
+Data Quality: Null values and "Unknown" entries required significant cleaning
+Time Period: Limited to 12-month analysis (Dec 2023 - Dec 2024)
+Demographic Gap: No customer demographic data beyond membership type
+Geographic Detail: Station-level analysis limited by data availability
+
+Future Analysis
+Short-term (3-6 months):
+
+A/B testing framework for marketing campaign effectiveness
+Revenue impact analysis of conversion strategies
+Seasonal promotion optimization
+
+Long-term (6+ months):
+
+Multi-year trend analysis to validate patterns
+Integration of demographic data for more targeted marketing
+Predictive modeling for conversion probability scoring
+Cross-city comparison with other bike-share programs
+
+Skills Demonstrated
+
+SQL: Complex queries for data cleaning and customer segmentation
+Data Analysis: Time series analysis, customer behavior patterns
+Business Intelligence: Translating data insights into marketing strategies
+Visualization: Interactive dashboard development in Tableau
+Problem Solving: Data quality issues resolution and strategic recommendations
+
+
+Tools: Tableau, Data Analysis, Customer Segmentation
+Industry: Transportation & Urban Mobility
 
 **Tableau Public**
 [https://public.tableau.com/app/profile/dinara.ibotova/viz/CyclisticBikeUsageAnalysisMembersvs_CasualRiders/Dashboard2?publish=yes](https://public.tableau.com/app/profile/dinara.ibotova/viz/CyclisticBikeShareProjectDashboard/Dashboard2?publish=yes)
@@ -47,8 +118,7 @@ Design marketing strategies aimed at converting casual riders into annual member
 **Scenario:**
 As a junior data analyst working on the marketing team at a Cyclistic bike share company located in Chicago, I have been given a task to find an answer to the "How do annual members and casual riders use Cyclistic bikes differently?" The goal is to convert casual riders into annual members rather than getting a new member. Hence, our team would like to understand casual and members closely. Then we can think of how to create a new marketing strategy to turn casual riders into members. **My database starts from 12/2023 to 12/2024**
 
-**Discoveries:**
-A study revealed that members tend to utilize the bike-sharing system more actively compared to casual riders. Members likely incorporate the system into their daily routines, resulting in a higher frequency of rides. Members showed a preference for weekday usage, while casual riders exhibited higher activity on weekends. Additionally, casual riders displayed a surge in usage during the summer months of June to August, whereas members maintained consistent usage throughout the year. Notably, members favored electric bikes over traditional bikes, whereas casual riders tended to opt for longer rides than members who preferred shorter, traditional bikes and more frequent trips.
+ Additionally, casual riders displayed a surge in usage during the summer months of June to August, whereas members maintained consistent usage throughout the year. Notably, members favored electric bikes over traditional bikes, whereas casual riders tended to opt for longer rides than members who preferred shorter, traditional bikes and more frequent trips.
 
 **Issues encountered:**
 There we a couple of issues encountered during the analysis, first my database had many null values, and second issue was started_at column had many Unknown values. 
